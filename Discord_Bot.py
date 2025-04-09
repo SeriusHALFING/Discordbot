@@ -58,7 +58,7 @@ async def play_loop():
             print(f'❌ File Not Found: {MP3_FILE}')
 
 
-@bot.command(name='salir')
+@bot.command(name='leave')
 async def leave(ctx):
     if ctx.voice_client:
         play_loop.stop()
