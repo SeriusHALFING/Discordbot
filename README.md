@@ -2,7 +2,7 @@
 This is a simple Discord bot built with discord.py that automatically connects to a voice channel on startup and plays a specified MP3 file at a set interval (cooldown). The bot also includes a command to leave the voice channel.
 
 
-
+------------------------------------------------------------------------------------------
 
          
 📋 Features
@@ -13,6 +13,8 @@ Plays a specified .mp3 file in a loop with a defined cooldown between plays.
 Includes a command (!salir) to disconnect the bot from the voice channel.
 
 Uses FFmpeg for audio playback.
+
+------------------------------------------------------------------------------------------
 
 🛠 Setup Instructions
 1. Requirements
@@ -48,6 +50,8 @@ Editar
 python Discord_Bot.py
 You should see output indicating the bot is connected and playing audio.
 
+------------------------------------------------------------------------------------------
+
 🧠 Usage
 Once the bot is running:
 
@@ -56,6 +60,8 @@ It will auto-connect to the designated voice channel and begin playback.
 It replays the MP3 file every COOLDOWN seconds if the file isn't currently playing.
 
 Use the !salir command in any text channel the bot can read to make it leave the voice channel.
+
+------------------------------------------------------------------------------------------
 
 📌 Notes
 Make sure FFmpeg is installed and working. You can download it from: https://ffmpeg.org/
