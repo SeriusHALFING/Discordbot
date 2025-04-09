@@ -26,16 +26,12 @@ FFmpeg installed and available in your system PATH
 
 Install dependencies:
 
-bash
-Copiar
-Editar
+
 pip install -U discord.py
 2. Configuration
 Edit the following variables in the Discord_Bot.py file:
 
-python
-Copiar
-Editar
+
 TOKEN = '(Your_Token)'  # Replace with your bot token
 GUILD_ID = 1234567890   # Replace with your Discord server ID
 VOICE_CHANNEL_ID = 1234567890  # Replace with your voice channel ID
@@ -44,9 +40,7 @@ COOLDOWN = 30  # Cooldown in seconds between replays
 Note: Ensure your bot has permission to connect to and speak in the target voice channel.
 
 3. Run the Bot
-bash
-Copiar
-Editar
+
 python Discord_Bot.py
 You should see output indicating the bot is connected and playing audio.
 
