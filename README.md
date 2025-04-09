@@ -33,10 +33,15 @@ Edit the following variables in the Discord_Bot.py file:
 
 
 TOKEN = '(Your_Token)'  # Replace with your bot token
+
 GUILD_ID = 1234567890   # Replace with your Discord server ID
+
 VOICE_CHANNEL_ID = 1234567890  # Replace with your voice channel ID
+
 MP3_FILE = r'C:\Users\(Path to your MP3 file).'  # Absolute path to your MP3 file
+
 COOLDOWN = 30  # Cooldown in seconds between replays
+
 Note: Ensure your bot has permission to connect to and speak in the target voice channel.
 
 3. Run the Bot
