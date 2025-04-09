@@ -58,7 +58,7 @@ It will auto-connect to the designated voice channel and begin playback.
 
 It replays the MP3 file every COOLDOWN seconds if the file isn't currently playing.
 
-Use the !salir command in any text channel the bot can read to make it leave the voice channel.
+Use the !leave command in any text channel the bot can read to make it leave the voice channel.
 
 ------------------------------------------------------------------------------------------
 
