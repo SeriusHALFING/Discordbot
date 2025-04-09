@@ -2,6 +2,9 @@
 This is a simple Discord bot built with discord.py that automatically connects to a voice channel on startup and plays a specified MP3 file at a set interval (cooldown). The bot also includes a command to leave the voice channel.
 
 
+
+
+         
 📋 Features
 Automatically connects to a specified voice channel when the bot starts.
 
